@@ -1,0 +1,11 @@
+  PID TTY           TIME CMD
+25199 ttys000    0:00.10 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp bweber
+25200 ttys000    0:00.21 login -fp bweber
+25201 ttys000    0:00.16 -bash
+25408 ttys000    0:00.01 tmux attach
+ 4609 ttys001    0:02.28 -bash
+41688 ttys001    0:00.00 ps -a
+33116 ttys002    0:00.38 /opt/twitter/Cellar/python/2.7.10/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python /opt/twitter/bin/ipython
+33667 ttys002    0:02.50 -bash
+41607 ttys003    0:00.17 /opt/twitter/Cellar/vim/7.4.712_1/bin/vim science/tests/python/twitter/ops/deploy/prep/test_lib_prep.py
+45628 ttys003    0:00.30 -bash
