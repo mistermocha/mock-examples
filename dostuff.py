@@ -31,7 +31,8 @@ class Gobbler(object):
     return "I am a simple function in {}".format(self.__name__)
 
   def func_with_args(self, foo, bar):
-    return "In the base class {} you passed me foo: {} and bar: {}".format(self.__name__, foo, bar)
+    return "In the base class {} you passed me foo: {} and bar: {}".format(
+      self.__name__, foo, bar)
 
   def gobble(self, thing):
     self.__gobblecounter__ += 1
@@ -48,11 +49,3 @@ class Gobbler(object):
     words = sentence.split()
     gobbled = self.gobble_many(words)
     return gobbled
-
-class Devourer(Gobbler):
-  def gobble(self, thing):
-    self.__gobblecounter__ += 1
-    return "devoured {}".format(thing)
-
-  def devourer(self, thing):
-    return self.gobble(thing)
